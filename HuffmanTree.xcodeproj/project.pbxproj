@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F50D921167738750038AC9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F50D920167738750038AC9B /* main.cpp */; };
+		5F50D923167738750038AC9B /* HuffmanTree.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F50D922167738750038AC9B /* HuffmanTree.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F50D91A167738750038AC9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5F50D923167738750038AC9B /* HuffmanTree.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F50D91C167738750038AC9B /* HuffmanTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HuffmanTree; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F50D920167738750038AC9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5F50D922167738750038AC9B /* HuffmanTree.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HuffmanTree.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F50D919167738750038AC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F50D911167738750038AC9B = {
+			isa = PBXGroup;
+			children = (
+				5F50D91F167738750038AC9B /* HuffmanTree */,
+				5F50D91D167738750038AC9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F50D91D167738750038AC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F50D91C167738750038AC9B /* HuffmanTree */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F50D91F167738750038AC9B /* HuffmanTree */ = {
+			isa = PBXGroup;
+			children = (
+				5F50D920167738750038AC9B /* main.cpp */,
+				5F50D922167738750038AC9B /* HuffmanTree.1 */,
+			);
+			path = HuffmanTree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F50D91B167738750038AC9B /* HuffmanTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F50D926167738750038AC9B /* Build configuration list for PBXNativeTarget "HuffmanTree" */;
+			buildPhases = (
+				5F50D918167738750038AC9B /* Sources */,
+				5F50D919167738750038AC9B /* Frameworks */,
+				5F50D91A167738750038AC9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuffmanTree;
+			productName = HuffmanTree;
+			productReference = 5F50D91C167738750038AC9B /* HuffmanTree */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F50D913167738750038AC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "王 瑞";
+			};
+			buildConfigurationList = 5F50D916167738750038AC9B /* Build configuration list for PBXProject "HuffmanTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F50D911167738750038AC9B;
+			productRefGroup = 5F50D91D167738750038AC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F50D91B167738750038AC9B /* HuffmanTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F50D918167738750038AC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F50D921167738750038AC9B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F50D924167738750038AC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F50D925167738750038AC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F50D927167738750038AC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F50D928167738750038AC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F50D916167738750038AC9B /* Build configuration list for PBXProject "HuffmanTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F50D924167738750038AC9B /* Debug */,
+				5F50D925167738750038AC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F50D926167738750038AC9B /* Build configuration list for PBXNativeTarget "HuffmanTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F50D927167738750038AC9B /* Debug */,
+				5F50D928167738750038AC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F50D913167738750038AC9B /* Project object */;
+}
